@@ -5,6 +5,7 @@
         [SetUp]
         public void Setup()
         {
+            int x=0; int y=0;
         }
 
         [Test]
