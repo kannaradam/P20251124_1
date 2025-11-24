@@ -15,8 +15,8 @@ namespace P20251124_1
         public void Test1()
         {
             int x = 5;
-            string szoveg = "premontrei";
-            ClassicAssert.NotZero(x);
+           int y = x%2;
+            ClassicAssert.IsTrue(y==0);
         }
     }
 }
